@@ -1,21 +1,19 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title><%= title %></title>
-    <link rel='stylesheet' href='/content/app.css' />
+
+<head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!--CSS-->
+    <title>
+        <%= title %>
+    </title>
+    <!-- CSS Section -->
+    <link rel='stylesheet' href='/Content/app.css' />
     <link rel="stylesheet" href="/scripts/lib/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="/scripts/lib/bootstrap/dist/css/bootstrap-theme.min.css">
     <link rel="stylesheet" href="/scripts/lib/font-awesome/css/font-awesome.min.css">
-  </head>
-  <body>
-    <h1><%= title %></h1>
-    <!--Javascript-->
-    <script src="scripts/lib/jquery/dist/jquery.min.css"></script>
-    <script src="scripts/lib/bootstrap/dist/js/bootstrap.min.js"></script>
-    <p>Welcome to <%= title %></p>
-  </body>
-</html>
+    <link rel="stylesheet" href="/scripts/lib/custom/main.css">
+    <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
+</head>
+<% include navbar.ejs %>
