@@ -1,0 +1,21 @@
+{
+  "name": "comp2068-midterm",
+  "description": "",
+  "main": "",
+  "authors": [
+    "Caleb Annunziello <cannunziello@hotmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/cannunzie/comp2068-midterm",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6"
+  }
+}
