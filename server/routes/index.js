@@ -7,7 +7,7 @@ router.get('../views/', function(req, res, next) {
 });
 
 /* GET people page. */
-router.get('/about', function(req, res, next) {
+router.get('/people', function(req, res, next) {
   res.render('people', { title: 'People' });
 });
 
